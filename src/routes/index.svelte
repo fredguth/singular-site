@@ -6,9 +6,10 @@
 <div class="bg-gradient-to-b from-purple-25 to-purple-50">
 <Header/>
 <Hero
-    tagline = "Bienvenue, mes amis!"
+    tagline = "Sinta-se em casa!"
     title = "Você merece um atendimento singular"
-    text = " Acreditamos .... we believe every child deserves a brighter future. and strive to give every student a personalized education that will promote their individual strengths and creativity."
+    text ="Doenças mentais limitam nossa capacidade de sermos nós mesmos. Na Singular, acreditamos que cada um é um ser em construção, com singulariedades. Por isso reunimos psiquiatras que aliam conhecimento científico a uma prática humanizada, onde o vínculo é cultivado."
+    image = "hero1.png"
 />
 </div>
 <Footer/>

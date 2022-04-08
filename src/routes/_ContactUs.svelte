@@ -3,7 +3,9 @@
 	export let address;
 	export let phone;
 	export let whatsapp;
-  let via = {
+	export let vertical=false;
+	$:vclass=(vertical ? 'flex-col' : '')
+	let via = {
 		address: [LocationMarker, 'Endereço'],
 		phone: [Phone, 'Tel'],
 		whatsapp: [Chat, 'WhatsApp']
@@ -12,10 +14,9 @@
   $: values = [address, phone, whatsapp]
 
 </script>
-
-<ul class="flex ml-8 lg:space-x-6 xl:space-x-16">
+<ul class="flex {vclass} m-8 ">
 	{#each Object.entries(via) as [p, v], index}
-		<li class="flex flex-shrink max-w-xs">
+		<li class="flex flex-shrink max-w-xs m-2">
 			<div>
 				<span class="flex items-center justify-center {colors[index]} rounded-2xl w-11 h-11">
 					<Icon src={v[0]} class="w-6 h-6 text-purple-700" />
