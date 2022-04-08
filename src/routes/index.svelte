@@ -11,3 +11,4 @@
     text = " Acreditamos .... we believe every child deserves a brighter future. and strive to give every student a personalized education that will promote their individual strengths and creativity."
 />
 </div>
+<Footer/>

@@ -16,7 +16,7 @@
 				</span>
 			</div>
 			<h1
-				class="max-w-xl mt-4 text-center text-purple-900 sm:mt-5 lg:text-left h1 lg:max-w-none"
+				class="max-w-xl mt-4 text-center text-purple-900 sm:mt-5 lg:text-left h1 lg:max-w-none sm:text-6xl xl:text-7xl leading-snug sm:leading-tight xl:leading-tighter"
 			>
 				{title}
 			</h1>
@@ -34,4 +34,8 @@
 		</div>
 	</div>
 </section>
-
+<style type="scss">
+     .h1 {
+        @apply font-extrabold text-5xl;
+    }
+</style>

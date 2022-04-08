@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @tailwind base;
-
-/* @layer base {
+@layer base {
     .h1 {
-        @apply font-extrabold text-5xl sm: text-6xl xl: text-7xl leading-snug sm: leading-tight xl: leading-tighter;
+        @apply font-extrabold text-5xl sm:text-6xl xl:text-7xl leading-snug sm:leading-tight;
     }
     .h2 {
-        @apply text-4xl leading-tight tracking-tight sm: text-5xl xl: text-6xl sm: leading-tighter font-bold;
+        @apply text-4xl leading-tight tracking-tight sm:text-5xl xl:text-6xl sm:leading-tighter font-bold;
     }
     .h3 {
-        @apply text-3xl leading-tight tracking-tight sm: text-4xl sm: leading-tighter font-bold;
+        @apply text-3xl leading-tight tracking-tight sm:text-4xl sm:leading-tighter font-bold;
     }
     .h4 {
-        @apply text-2xl leading-tight tracking-tight sm: text-3xl sm: leading-tighter font-bold;
+        @apply text-2xl leading-tight tracking-tight sm:text-3xl sm:leading-tighter font-bold;
     }
     .btn,
     .btn-sm {
@@ -24,7 +23,7 @@
     .btn-sm {
         @apply px-5 py-2.5;
     }
-} */
+}
 
 @tailwind components;
 @tailwind utilities;
