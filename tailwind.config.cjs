@@ -3,31 +3,36 @@ module.exports = {
     theme: {
         extend: {}
     },
-    daisyui: {
-        themes: [{
-            mytheme: {
 
-                "primary": "#334477",
+    // daisyui: {
+    //     style: true,
 
-                "secondary": "#0077CC",
+    //     themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter",
+    //         {
+    //             "remoto": {
 
-                "accent": "#FF7755",
+    //                 "primary": "#334477",
 
-                "neutral": "#DDCCAA",
+    //                 "secondary": "#0077CC",
 
-                "base-100": "#FFFFFF",
+    //                 "accent": "#FF7755",
 
-                "info": "#93E6FB",
+    //                 "neutral": "#DDCCAA",
 
-                "success": "#80CED1",
+    //                 "base-100": "#FFFFFF",
 
-                "warning": "#EFD8BD",
+    //                 "info": "#93E6FB",
 
-                "error": "#E58B8B",
-            },
-        }, ],
-    },
+    //                 "success": "#80CED1",
+
+    //                 "warning": "#EFD8BD",
+
+    //                 "error": "#E58B8B",
+    //             },
+    //         },
+    //     ],
+    // },
     plugins: [
-        require("@tailwindcss/typography"), require('daisyui'),
+        // require("@tailwindcss/typography"), require('daisyui'),
     ],
 };

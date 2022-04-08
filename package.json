@@ -1,5 +1,5 @@
 {
-    "name": "app",
+    "name": "site",
     "version": "0.0.1",
     "scripts": {
         "dev": "svelte-kit dev --port 3333",
@@ -27,13 +27,16 @@
         "prettier-plugin-svelte": "^2.5.0",
         "svelte": "^3.44.0",
         "svelte-check": "^2.2.6",
+        "svelte-hero-icons": "^4.1.1",
         "svelte-preprocess": "^4.10.1",
         "tailwindcss": "^3.0.23",
+        "theme-change": "^2.0.2",
         "tslib": "^2.3.1",
         "typescript": "~4.6.2"
     },
     "type": "module",
     "dependencies": {
+        "@codewithshin/svelte-heroicons": "^1.1.3",
         "daisyui": "^2.13.6"
     }
 }
