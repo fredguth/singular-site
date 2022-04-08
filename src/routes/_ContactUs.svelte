@@ -1,7 +1,7 @@
 <script>
 	import { Icon, Chat, LocationMarker, Phone } from 'svelte-hero-icons';
 	export let address;
-	export let tel;
+	export let phone;
 	export let whatsapp;
   let via = {
 		address: [LocationMarker, 'Endereço'],
@@ -9,6 +9,7 @@
 		whatsapp: [Chat, 'WhatsApp']
 	};
 	let colors = ['bg-rose-200', 'bg-yellow-200', 'bg-green-200'];
+  $: values = [address, phone, whatsapp]
 
 </script>
 
@@ -25,7 +26,7 @@
 					{v[1]}
 				</h5>
 				<p class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90">
-					{p}
+					{values[index]}
 				</p>
 			</div>
 		</li>
