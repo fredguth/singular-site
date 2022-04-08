@@ -2,8 +2,8 @@
     import Logo from './_Logo.svelte';
     import ContactUs from './_ContactUs.svelte';
 </script>
-<div class="hidden bg-rose-100 px-4 lg:block sm:px-6">
-    <div class="bg-gray-100 relative max-w-screen-xl py-5 mx-auto border-b border-purple-200/30">
+<div class="hidden px-4 lg:block sm:px-6">
+    <div class="relative max-w-screen-xl py-5 mx-auto border-b border-purple-200/30">
         <div class="flex items-center justify-between">
             <Logo/>
             <ContactUs 

@@ -5,6 +5,6 @@
 	<meta charset="UTF-8" />
     <title>Singular Psiquiatria Personalizada</title>
 </svelte:head>
-<main class="bg-gradient-to-b from-purple-25 to-purple-50">
+<main>
 	<slot />
 </main>
